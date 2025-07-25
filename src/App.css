@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+    --font-Oswald: "Oswald", "sans-serif"; 
+    --font-Barlow: "Barlow Condensed", "sans-serif"; 
+  }
