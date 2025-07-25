@@ -4,3 +4,10 @@
     --font-Oswald: "Oswald", "sans-serif"; 
     --font-Barlow: "Barlow Condensed", "sans-serif"; 
   }
+
+  .slick-center {
+  transform: scale(1.2);
+  /* transform: translateY(1.4); */
+  transition: transform 0.3s ease;
+  z-index: 10;
+}
