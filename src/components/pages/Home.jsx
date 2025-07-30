@@ -13,6 +13,7 @@ const Home = () => {
     <Popular/>
     <Streaming/>
     <SalePart/>
+    
     </>
   )
 }
