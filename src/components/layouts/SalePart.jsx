@@ -20,7 +20,7 @@ const Games = ({game, gameName, offer, orgPrice, discPrice, devName})=>{
             <p className="text-white font-Barlow text-[22px] mb-[20px]">{gameName}</p>
             <p className="font-Oswald text-[16px] text-[#666666] mb-[20px]">{devName}</p>
             <div className="flex items-center gap-x-[10px]">
-                <p className="p-2 text-white bg-[#FF4655] font-Barlow">{offer}</p>
+                <p className="p-2 text-white bg-[#FF465</div>5] font-Barlow">{offer}</p>
                 <del className="text-[#666666] font-Barlow text-[20px]">{orgPrice}</del>
                 <p className="text-[16px] font-Oswald text-white">{discPrice}</p>
             </div>

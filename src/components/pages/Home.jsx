@@ -4,6 +4,8 @@ import Banner2 from '../layouts/Banner2'
 import Popular from '../layouts/Popular'
 import Streaming from '../layouts/Streaming'
 import SalePart from '../layouts/SalePart'
+import Accesories from '../layouts/Accesories'
+import ProTeam from '../layouts/ProTeam'
 
 const Home = () => {
   return (
@@ -13,7 +15,8 @@ const Home = () => {
     <Popular/>
     <Streaming/>
     <SalePart/>
-    
+    <Accesories/>
+    <ProTeam/>
     </>
   )
 }
