@@ -45,7 +45,7 @@ return (
                 </button>
             </div>
             {show &&
-                <div className="text-right absolute top-5 right-9 bg-white text-black p-3.5 text-[10px] block sm:hidden">
+                <div className="text-right absolute top-5 right-9 bg-white text-black p-3.5 text-[16px] block sm:hidden">
                     <ul>
                         <li>Home</li>
                         <li>About us</li>
