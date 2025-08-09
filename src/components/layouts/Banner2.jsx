@@ -8,16 +8,16 @@ import CurveBox from './CurveBox';
 
 const Banner2 = () => {
   return (
-    <div className='bg-[#121212] py-[100px]'>
+    <div className='bg-[#121212] py-[40px] sm:py-[100px]'>
       <Container className={"font-Oswald text-white"}>
-        <div className="w-[518px]">
-            <p className='text-[38px]'>ABOUT THE BIGGEST HANCOK COMMUNITY</p>
+        <div className="sm:w-[518px]">
+            <p className='sm:text-[38px] text-[20px] text-center sm:text-left'>ABOUT THE BIGGEST HANCOK COMMUNITY</p>
         </div>
-        <div className="flex gap-x-[70px]">
-            <div className="w-[708px]">
-            <Images src={banner2}/>
+        <div className="flex sm:gap-x-[70px]">
+            <div className="w-[708px] hidden sm:block">
+            <Images className={""} src={banner2}/>
             </div>
-            <div className="">
+            <div className="m-auto text-center sm:ml-0 sm:text-left">
                 <h3 className='text-[27px] mb-[20px]'>MOST POPULAR GAMING PLATFORM.</h3>
                 <p className='flex items-center text-[18px] mb-[15px]'><TiTick className='text-red-700 text-[25px]' />World Bigghest Community & Gaming Server</p>
                 <p className='flex items-center text-[18px] mb-[15px]'><TiTick className='text-red-700 text-[25px]' />We Provide Gaming Accesories</p>
