@@ -16,132 +16,132 @@ const Banner = () => {
     infinite: true,
     speed: 100,
     slidesToShow: 1,
-    autoplay: true,
+    autoplay: false,
     slidesToScroll: 1,
     autoplaySpeed: 1300,
     arrows: false,
   };
   return (
     <div>
-      <div className="bg-[url(/src/assets/banner1.png)] bg-center bg-cover bg-no-repeat py-[100px]">
+      <div className="bg-[url(/src/assets/banner1.png)] bg-center bg-cover bg-no-repeat py-[40px] sm:py-[100px]">
         <Container>
           <Slider {...settings}>
             <div>
-              <div className="w-[611px] text-white font-Oswald">
-                <p className="text-[27px] mb-[30px]">LIFE TIME</p>
-                <p className="font-semibold text-[60px] mb-[30px]">
+              <div className="sm:w-[611px] text-white font-Oswald">
+                <p className="text-[20px] sm:text-[27px] mb-[30px] text-center sm:text-left">LIFE TIME</p>
+                <p className="font-semibold text-[20px] sm:text-[60px] mb-[30px] text-center sm:text-left">
                   GAMING EXPERIENCE
                 </p>
-                <p className="text-[16px] mb-[50px] mr-[94px] leading-[24px]">
+                <p className="text-[16px] mb-[50px] sm:mr-[94px] leading-[24px] text-center sm:text-left">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Repudiandae alias voluptas optio. Veritatis recusandae
                   pariatur qui dignissimos dolore similique ad adipisci eum.
                   Quos aliquid fugiat magni illum eius?
                 </p>
 
-                <button className="py-[10px] px-[20px] bg-white text-black flex items-center">
+                <button className="py-[10px] px-[20px] bg-white text-black flex items-center m-auto sm:ml-0">
                   View More{" "}
                   <MdKeyboardDoubleArrowRight className="mt-[3px] text-[25px]" />{" "}
                 </button>
               </div>
             </div>
             <div>
-              <div className="w-[611px] text-white font-Oswald">
-                <p className="text-[27px] mb-[30px]">LIFE TIME</p>
-                <p className="font-semibold text-[60px] mb-[30px]">
+              <div className="sm:w-[611px] text-white font-Oswald">
+                <p className="text-[20px] sm:text-[27px] mb-[30px] text-center sm:text-left">LIFE TIME</p>
+                <p className="font-semibold text-[20px] sm:text-[60px] mb-[30px] text-center sm:text-left">
                   GAMING EXPERIENCE
                 </p>
-                <p className="text-[16px] mb-[50px] mr-[94px] leading-[24px]">
+                <p className="text-[16px] mb-[50px] sm:mr-[94px] leading-[24px] text-center sm:text-left">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Repudiandae alias voluptas optio. Veritatis recusandae
                   pariatur qui dignissimos dolore similique ad adipisci eum.
                   Quos aliquid fugiat magni illum eius?
                 </p>
 
-                <button className="py-[10px] px-[20px] bg-white text-black flex items-center">
+                <button className="py-[10px] px-[20px] bg-white text-black flex items-center m-auto sm:ml-0">
                   View More{" "}
                   <MdKeyboardDoubleArrowRight className="mt-[3px] text-[25px]" />{" "}
                 </button>
               </div>
             </div>
             <div>
-              <div className="w-[611px] text-white font-Oswald">
-                <p className="text-[27px] mb-[30px]">LIFE TIME</p>
-                <p className="font-semibold text-[60px] mb-[30px]">
+              <div className="sm:w-[611px] text-white font-Oswald">
+                <p className="text-[20px] sm:text-[27px] mb-[30px] text-center sm:text-left">LIFE TIME</p>
+                <p className="font-semibold text-[20px] sm:text-[60px] mb-[30px] text-center sm:text-left">
                   GAMING EXPERIENCE
                 </p>
-                <p className="text-[16px] mb-[50px] mr-[94px] leading-[24px]">
+                <p className="text-[16px] mb-[50px] sm:mr-[94px] leading-[24px] text-center sm:text-left">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Repudiandae alias voluptas optio. Veritatis recusandae
                   pariatur qui dignissimos dolore similique ad adipisci eum.
                   Quos aliquid fugiat magni illum eius?
                 </p>
 
-                <button className="py-[10px] px-[20px] bg-white text-black flex items-center">
+                <button className="py-[10px] px-[20px] bg-white text-black flex items-center m-auto sm:ml-0">
                   View More{" "}
                   <MdKeyboardDoubleArrowRight className="mt-[3px] text-[25px]" />{" "}
                 </button>
               </div>
             </div>
             <div>
-              <div className="w-[611px] text-white font-Oswald">
-                <p className="text-[27px] mb-[30px]">LIFE TIME</p>
-                <p className="font-semibold text-[60px] mb-[30px]">
+              <div className="sm:w-[611px] text-white font-Oswald">
+                <p className="text-[20px] sm:text-[27px] mb-[30px] text-center sm:text-left">LIFE TIME</p>
+                <p className="font-semibold text-[20px] sm:text-[60px] mb-[30px] text-center sm:text-left">
                   GAMING EXPERIENCE
                 </p>
-                <p className="text-[16px] mb-[50px] mr-[94px] leading-[24px]">
+                <p className="text-[16px] mb-[50px] sm:mr-[94px] leading-[24px] text-center sm:text-left">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Repudiandae alias voluptas optio. Veritatis recusandae
                   pariatur qui dignissimos dolore similique ad adipisci eum.
                   Quos aliquid fugiat magni illum eius?
                 </p>
 
-                <button className="py-[10px] px-[20px] bg-white text-black flex items-center">
+                <button className="py-[10px] px-[20px] bg-white text-black flex items-center m-auto sm:ml-0">
                   View More{" "}
                   <MdKeyboardDoubleArrowRight className="mt-[3px] text-[25px]" />{" "}
                 </button>
               </div>
             </div>
             <div>
-              <div className="w-[611px] text-white font-Oswald">
-                <p className="text-[27px] mb-[30px]">LIFE TIME</p>
-                <p className="font-semibold text-[60px] mb-[30px]">
+              <div className="sm:w-[611px] text-white font-Oswald">
+                <p className="text-[20px] sm:text-[27px] mb-[30px] text-center sm:text-left">LIFE TIME</p>
+                <p className="font-semibold text-[20px] sm:text-[60px] mb-[30px] text-center sm:text-left">
                   GAMING EXPERIENCE
                 </p>
-                <p className="text-[16px] mb-[50px] mr-[94px] leading-[24px]">
+                <p className="text-[16px] mb-[50px] sm:mr-[94px] leading-[24px] text-center sm:text-left">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Repudiandae alias voluptas optio. Veritatis recusandae
                   pariatur qui dignissimos dolore similique ad adipisci eum.
                   Quos aliquid fugiat magni illum eius?
                 </p>
 
-                <button className="py-[10px] px-[20px] bg-white text-black flex items-center">
+                <button className="py-[10px] px-[20px] bg-white text-black flex items-center m-auto sm:ml-0">
                   View More{" "}
                   <MdKeyboardDoubleArrowRight className="mt-[3px] text-[25px]" />{" "}
                 </button>
               </div>
             </div>
             <div>
-              <div className="w-[611px] text-white font-Oswald">
-                <p className="text-[27px] mb-[30px]">LIFE TIME</p>
-                <p className="font-semibold text-[60px] mb-[30px]">
+              <div className="sm:w-[611px] text-white font-Oswald">
+                <p className="text-[20px] sm:text-[27px] mb-[30px] text-center sm:text-left">LIFE TIME</p>
+                <p className="font-semibold text-[20px] sm:text-[60px] mb-[30px] text-center sm:text-left">
                   GAMING EXPERIENCE
                 </p>
-                <p className="text-[16px] mb-[50px] mr-[94px] leading-[24px]">
+                <p className="text-[16px] mb-[50px] sm:mr-[94px] leading-[24px] text-center sm:text-left">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Repudiandae alias voluptas optio. Veritatis recusandae
                   pariatur qui dignissimos dolore similique ad adipisci eum.
                   Quos aliquid fugiat magni illum eius?
                 </p>
 
-                <button className="py-[10px] px-[20px] bg-white text-black flex items-center">
+                <button className="py-[10px] px-[20px] bg-white text-black flex items-center m-auto sm:ml-0">
                   View More{" "}
                   <MdKeyboardDoubleArrowRight className="mt-[3px] text-[25px]" />{" "}
                 </button>
               </div>
             </div>
           </Slider>
-          <div className="flex gap-x-[20px] mt-[300px]">
+          <div className="flex gap-x-[20px] mt-[70px] justify-center sm:justify-start sm:mt-[300px]">
             <Images src={fb} />
             <Images src={ld} />
             <Images src={tw} />
