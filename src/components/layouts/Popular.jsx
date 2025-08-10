@@ -47,7 +47,7 @@ const Popular = () => {
     <>
       <div className="bg-[#191919] py-[40px]">
         <Container className={"relative"}>
-          <p className="text-white font-Barlow font-semibold text-[38px] text-right ml-[900px]">
+          <p className="text-white font-Barlow font-semibold text-[25px] mb-[10px] sm:mb-0 sm:text-[38px] sm:text-right sm:ml-[900px] text-center">
             POPULAR GAMES AROUND THE WORLD
           </p>
 

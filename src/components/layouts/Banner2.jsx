@@ -6,20 +6,56 @@ import { TiTick } from "react-icons/ti";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import CurveBox from './CurveBox';
 import CountUp from 'react-countup';
+import { motion } from "motion/react"
+
 
 const Banner2 = () => {
 
   return (
     <div className='bg-[#121212] py-[40px] sm:py-[100px]'>
       <Container className={"font-Oswald text-white"}>
-        <div className="sm:w-[518px]">
+        <motion.div
+        initial = {{
+          x: 100
+        }}
+        whileInView = {{
+          x: 0
+        }}
+        transition={{
+          duration: 1
+        }}
+        className="sm:w-[518px]">
             <p className='sm:text-[38px] text-[20px] text-center sm:text-left'>ABOUT THE BIGGEST HANCOK COMMUNITY</p>
-        </div>
+        </motion.div>
         <div className="flex sm:gap-x-[70px]">
-            <div className="w-[708px] hidden sm:block">
+            <motion.div
+            initial={{
+              x: -100,
+              opacity:0
+            }}
+            whileInView={{
+              x:0,
+              opacity:1
+              
+            }}
+            transition={{
+              duration: 1
+            }}
+            
+            className="w-[708px] hidden sm:block">
             <Images className={""} src={banner2}/>
-            </div>
-            <div className="m-auto text-center sm:ml-0 sm:text-left">
+            </motion.div>
+            <motion.div
+            initial={{
+              scale:0.3
+            }}
+            whileInView={{
+              scale:1
+            }}
+            transition={{
+              duration:1
+            }}
+            className="m-auto text-center sm:ml-0 sm:text-left">
                 <h3 className='text-[27px] mb-[20px]'>MOST POPULAR GAMING PLATFORM.</h3>
                 <p className='flex items-center text-[18px] mb-[15px]'><TiTick className='text-red-700 text-[25px]' />World Bigghest Community & Gaming Server</p>
                 <p className='flex items-center text-[18px] mb-[15px]'><TiTick className='text-red-700 text-[25px]' />We Provide Gaming Accesories</p>
@@ -30,9 +66,9 @@ const Banner2 = () => {
                 <p className='text-[18px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex illo sed odio temporibus magni quia eveniet odit placeat repellat quod ipsum modi necessitatibus, dolorum officia!</p>
             </div>
             <button className='py-[10px] px-[20px] bg-[#212121] text-white flex items-center mt-[20px] cursor-pointer'>View More <MdKeyboardDoubleArrowRight className='mt-[3px] text-[25px]' /> </button>
-            </div>
+            </motion.div>
         </div>
-        <div className="flex justify-between mt-[30px] flex-col sm:flex-row">
+        <div className="flex justify-between mt-[30px] flex-col lg:flex-row">
             <CurveBox text={<CountUp end={123} duration={5}/>} text2={"Community Earning"}/>
             <CurveBox text={<CountUp end={12} duration={5} suffix='M'/>} text2={"Total Member"}/>
             <CurveBox text={<CountUp end={100} duration={5} suffix='K'/>} text2={"Streams Complete"}/>

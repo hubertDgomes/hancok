@@ -20,19 +20,19 @@ const Streaming = () => {
     className: "center",
     centerMode: true,
     infinite: true,
-    centerPadding: "60px",
+    centerPadding: "1px",
     slidesToShow: 3,
     speed: 500,
   };
   return (
     <div className="bg-black py-[30px]">
-      <Container className={"py-[50px]"}>
-        <p className="font-Oswald font-semibold text-[38px] text-white mr-[806px]">
+      <Container className={"sm:py-[50px] py-[20px]"}>
+        <p className="font-Oswald font-semibold text-[25px] mb-[20px] sm:mb-0 sm:text-[38px] text-center sm:text-left text-white sm:mr-[806px]">
           LIVE STREAMIN VIDEO BY HANCOK
         </p>
 
         <div className="slider-container">
-          <Slider {...settings} className="mx-[10px]">
+          <Slider {...settings} className="">
             <div className="px-4">
               <Images src={live1} />
             </div>
@@ -51,12 +51,15 @@ const Streaming = () => {
         <div className="">
           <p className="text-center font-Barlow font-medium text-[25px] text-white mt-[20px]">PREVIOUS MATCHES</p>
           <div className="">
-            <div className="flex justify-evenly items-center">
+            <div className="flex justify-evenly items-center flex-col sm:flex-row">
               <Images src={team1}/>
               <p className="font-Oswald text-[40px] font-medium text-white">9:12</p>
               <Images src={team2}/>
             </div>
-            <div className="flex justify-evenly items-center mt-[60px]">
+            <div className="block sm:hidden text-white text-center py-1.5 text-[40px] font-Oswald mt-[40px]">
+              And
+            </div>
+            <div className="flex justify-evenly items-center mt-[60px] flex-col sm:flex-row">
               <Images src={team3}/>
               <p className="font-Oswald text-[40px] font-medium text-white">17:8</p>
               <Images src={team4}/>

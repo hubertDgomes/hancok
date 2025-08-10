@@ -69,8 +69,8 @@ const SalePart = () => {
   };
   return (
     <>
-      <div className="bg-[#191919] py-[60px]">
-        <Container> 
+      <div className="bg-[#191919] py-[60px] ">
+        <Container className={"m-auto"}> 
           <p className="text-white text-right font-Barlow font-semibold text-[38px] ml-[900px]">TOP GAMES ON BLACK FRIDAY SALE</p>
           <Slider {...settings}>
       <div>
