@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Container from '../Container'
 import Images from '../Images'
 import banner2 from '/src/assets/banner2.png'
 import { TiTick } from "react-icons/ti";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import CurveBox from './CurveBox';
+import CountUp from 'react-countup';
 
 const Banner2 = () => {
+
   return (
     <div className='bg-[#121212] py-[40px] sm:py-[100px]'>
       <Container className={"font-Oswald text-white"}>
@@ -30,11 +32,11 @@ const Banner2 = () => {
             <button className='py-[10px] px-[20px] bg-[#212121] text-white flex items-center mt-[20px] cursor-pointer'>View More <MdKeyboardDoubleArrowRight className='mt-[3px] text-[25px]' /> </button>
             </div>
         </div>
-        <div className="flex justify-between mt-[30px]">
-            <CurveBox text={"112k"} text2={"Community Earning"}/>
-            <CurveBox text={"12M"} text2={"Total Member"}/>
-            <CurveBox text={"100k"} text2={"Streams Complete"}/>
-            <CurveBox text={"844"} text2={"Total Sponsers"}/>
+        <div className="flex justify-between mt-[30px] flex-col sm:flex-row">
+            <CurveBox text={<CountUp end={123} duration={5}/>} text2={"Community Earning"}/>
+            <CurveBox text={<CountUp end={12} duration={5} suffix='M'/>} text2={"Total Member"}/>
+            <CurveBox text={<CountUp end={100} duration={5} suffix='K'/>} text2={"Streams Complete"}/>
+            <CurveBox text={<CountUp end={123} duration={5} suffix='K'/>} text2={"Total Sponsers"}/>
         </div>
       </Container>
     </div>
